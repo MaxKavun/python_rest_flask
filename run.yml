@@ -1,5 +1,6 @@
 ---
 - hosts: all
   tasks:
-  - name: Check hosts
+  - name: Check hosts by ping-pong
     ping:
+    
